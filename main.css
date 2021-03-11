@@ -1,0 +1,259 @@
+body {
+	font-family: 'Mulish';
+	margin: 0px;
+	padding: 0px;
+
+	background-color: #3C4349;
+	color: #fff;
+}
+
+/*ПЕРВЫЙ БЛОК*/
+
+.header-menu, .card-menu {
+	color: #000;
+}	
+
+.container {
+	width: 1120px;
+	margin: 0px auto;
+	position: relative;
+}
+
+.header {
+	margin: 50px 0px;
+}
+
+.header-nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header-nav div {
+	cursor: pointer;
+}
+
+.header-nav .header-logo {
+	font-size: 30px;
+	font-weight: bold;
+	cursor: default;
+}
+
+.header-back {
+	align-items: center;
+	display: flex;
+}
+
+.header-menu {
+	position: absolute;
+	right: 0px;
+	width: 230px;
+	height: 120px;
+	background-color: #fff;
+	border-radius: 7px;
+	margin-top: 15px;
+	box-shadow: 0px 9px 12px 0px rgba(0,0,0,0.20);
+}
+
+.header-loop {
+	position: absolute;
+	width: 54px;
+	height: 30px;
+	clip-path: polygon(25% 0%, 75% 0%, 100% 17%, 75% 100%, 25% 100%, 0 17%);	
+	background-color: #fff;
+	border-radius: 20px;
+
+	right: 15px;
+	top: -8px;
+}
+
+.header-content__first, .header-content__second {
+	display: flex;
+	justify-content: space-between;
+	height: 35px;
+	margin: 20px;
+}
+
+/*ВТОРОЙ БЛОК*/
+
+.balance-block {
+	margin: 0px auto;
+	width: 600px;
+	justify-content: space-around;
+	display: flex;
+	align-items: center;
+}
+
+.balance-menu {
+	display: flex;
+	justify-content: space-around;
+	width: 390px;
+	align-items: center;
+}
+
+.balance-money span {
+	opacity: .4;
+}
+
+.balance-card {
+	background-color: #696969;
+	padding: 10px 20px;
+	border-radius: 8px;
+}
+
+/*ТРЕТИЙ БЛОК*/
+
+.visa {
+	margin: 100px 0px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.card {
+	background-color: #47494E;
+	margin: 20px 0px;
+	padding: 13px 40px;
+	border-radius: 10px;
+	width: 280px;
+}
+
+.crd {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.card:first-child {
+	margin: 0px;
+	border: 1px solid #7FCDFA;
+}
+
+.visa-content_img {
+	width: 3px;
+	position: absolute;
+	right: 20px;
+}
+
+.card:nth-child(3) {
+	display: flex;
+	justify-content: center;
+	margin: 0px;
+	margin-top: 54px;
+	background-color: #3C4349;
+	border: 1px solid #fff;
+	opacity: .5;
+}
+
+.visa-zvezda {
+	margin-top: 4.5px;
+}
+
+.visa-second {
+	position: relative;
+}
+
+.card-menu {
+	background-color: #fff;
+	position: absolute;
+	border-radius: 3px;
+	padding: 23px 15px;
+	right: -140px;
+	top: 0px;
+
+	box-shadow: 0px 9px 12px 0px rgba(0,0,0,0.35);
+}
+
+.card-menu-loop {
+	position: absolute;
+	width: 10px;
+	height: 35px;
+	background-color: #fff;
+	border-radius: 4px;
+	left: -5px;
+	top: 10px;
+}
+
+.card-menu__first, .card-menu__second {
+	display: flex;
+	align-items: center;
+}
+
+.card-menu__text {
+	margin-left: 10px;
+	font-size: 14px;
+}
+
+.text-second {
+	opacity: .4;
+}
+
+/*ТРЕТИЙ БЛОК*/
+
+.count {
+	margin-bottom: 75px;
+}
+
+.count, .count-money, .count-card__first, .count-card__save, .count-card__btn {
+	display: flex;
+}
+
+.count, .count-money, .count-card__first, .count-card__save {
+	justify-content: space-between;
+}
+
+.count-money {
+	width: 362px;
+}
+
+.count-card__save, .count-card__btn, .count {
+	align-items: center;
+}
+
+.count-card__first {
+	width: 270px;
+}
+
+.count-card__save {
+	width: 100px;
+}
+
+.count-button {
+	background: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+
+	color: #fff;
+	border: 1px solid #67C870;
+	background-color: #67C870;
+	padding: 10px 50px;
+	border-radius: 8px;
+}
+
+.count-numb {
+	font-size: 25px;
+}
+
+.count-text {
+	font-size: 13px;
+	margin-bottom: 8px;
+}
+
+.count-slash {
+	display: flex;
+	align-items: flex-end;
+	font-size: 25px;
+	opacity: .5;
+}
+
+/*ПОСЛЕДНИЙ БЛОК*/ 
+
+.last {
+	display: flex;
+	justify-content: center;
+	color: #A6A6A6
+}
+
+.last span {
+	color: #fff;
+}
